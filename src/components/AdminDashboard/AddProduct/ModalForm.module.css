@@ -1,0 +1,12 @@
+.message{
+    position: absolute;
+    font-size: 13px;
+    margin-top: 790px;
+    margin-left: 38%;
+    color: rgb(48, 58, 194);
+    
+}
+
+.modal {
+    background-color: red;
+  }

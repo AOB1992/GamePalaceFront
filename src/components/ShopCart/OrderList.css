@@ -1,0 +1,64 @@
+.order-list {
+    min-height: 100vh;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-cart {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.order-table {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.order-actions p {
+    padding: 15px;
+}
+
+.order-actions p:hover {
+    cursor: pointer;
+}
+
+.direccion-envio {
+    display: flex;
+    justify-content: center;
+}
+
+.order-shipping {
+    display:flex;
+    text-align: center;
+}
+
+.form-address {
+    display: flex;
+    justify-content: center;
+    color:"white"; 
+    margin:"auto"; 
+    width:"10%";
+    border-bottom: 1px solid black;
+}
+
+.button-MP {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: rgb(0, 166, 255);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+}

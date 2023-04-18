@@ -1,0 +1,47 @@
+.footer {
+    margin-top: auto;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.terms {
+    font-size: 0.9rem;
+
+}
+
+.aboutButton {
+    width: 100px;
+    color: rgba(0, 0, 0, 0.735);
+    background-color: rgb(128, 128, 128);
+
+}
+
+.contactButton {
+    width: 100px;
+    color: rgba(0, 0, 0, 0.735);
+    background-color: rgb(128, 128, 128);
+
+
+}
+
+.aboutButton:hover {
+    color: white;
+}
+
+.contactButton:hover {
+    color: white;
+}
+
+.footerContact:hover {
+    color: #dddddd;
+}
+
+.contact {
+    display: flex;
+    gap: 1em;
+}
+
+.footer_buttons {
+    gap: 10px;
+}

@@ -1,0 +1,69 @@
+:root{
+    --font-family-test: 'Poppins', sans-serif;
+}
+
+.search__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 40px;
+    top: 50px;
+    background-color: #fff;
+    gap: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+@media (max-width:1280px) {
+    .search__container{
+        display: none;
+    }
+}
+
+@media (max-width: 960px){
+    .search__container{
+        display: none;
+    }
+}
+
+label{
+    color: #95c827;
+    font-family: var(--font-family-test);
+    font-weight: 600;
+}
+
+.search_text {
+    padding: 5px;
+    border-radius: 6px;
+    font-family: var(--font-family-test);
+    border: 1px solid #95c827;
+}
+
+
+.select_text {
+    padding: 5px;
+    border-radius: 6px;
+    font-family: var(--font-family-test);
+    border: 1px solid #95c827;
+
+}
+
+.reset_filter:hover {
+    background-color: #95c827;
+    transition: 0.3s all ease;
+}
+
+.button_search{
+    padding: 5px;
+    border: 1px solid #95c827;
+
+}
+
+.button_search:hover{
+    background-color: #95c827;
+    transition: 0.3s all ease;
+}
+
+

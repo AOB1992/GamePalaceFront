@@ -1,0 +1,39 @@
+.data_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+}
+
+.datas {
+    width: 100%;
+    padding: 10px;
+}
+
+.input_cont {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #95c827;
+}
+
+.input_cont:focus {
+    border-color: green;
+    outline: 1px #000
+}
+
+.botton_sub {
+    padding: 10px;
+    width: 100%;
+    font-family: var(--font-family-test);
+    box-sizing: border-box;
+    border: none;
+}
+
+.botton_sub:hover {
+    box-shadow: 2px 2px 30px 2px #95c827;
+    transition: 0.5s all ease;
+}

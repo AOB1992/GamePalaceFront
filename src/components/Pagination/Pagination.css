@@ -1,0 +1,7 @@
+.buttons_page{
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}

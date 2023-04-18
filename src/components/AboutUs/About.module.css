@@ -1,0 +1,29 @@
+.aboutus{
+    height: 75.9vh;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.container{
+    border: 5px solid transparent; 
+    border-image: linear-gradient(to right, #FF6B6B, #FFDA83, #5EFF3D, #83E8FF, #BE83FF) 1; 
+    border-image-slice: 1; 
+    padding: 20px; 
+    width: 60%;
+    font-size: 20px;
+}
+
+h2{
+    font-size:30px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+
+  
+  

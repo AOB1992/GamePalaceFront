@@ -1,0 +1,54 @@
+#background {
+  background-image: url("https://i.ibb.co/nwRsHth/Fondo-de-Pantalla-Escritorio-PC-Abstracto-Moderno-Degradado-Negro.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  overflow: auto;
+  margin: 0%;
+}
+
+/*dejo listo el media para el responsive detallado del landing page !!!*/
+@media (max-width: 500px) {
+  #background{
+     width: 100auto;
+  }
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+  margin-left: 0%;
+}
+/* 
+#h1 {
+  color: rgb(255, 255, 255);
+  margin-left: 50%;
+  margin-top: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  font-style: oblique;
+} */
+
+#button {
+  color: #95c827;
+  margin-left: 20%;
+  margin-top: 15%;
+  border-radius: 1em;
+  border: none;
+  cursor: pointer;
+  background-color: #4b526e;
+  font-size: 30px;
+  /* font-weight: bold; */
+  font-style: oblique;
+  box-shadow: 0rem 0.1875rem 0.375rem rgb(54, 51, 51);
+}
+
+#button:hover {
+  background-color: #95c827;
+  color: #4b526e;
+}

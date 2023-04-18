@@ -1,0 +1,122 @@
+.trademark{
+  width: 350px;
+  margin-top: 10px;
+ 
+}
+
+.price{
+  margin-top: 10px;
+  width: 150px;
+ 
+}
+.P {
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  
+
+
+.table-fixed thead,
+.table-fixed thead>th {
+  background: #394044;
+  color: #fff;
+  line-height: 20px;
+}
+
+.table-fixed tbody tr td {
+  background: #fff;
+}
+
+
+
+.table-fixed tbody td,
+.table-fixed thead>tr>th {
+  float: left;
+  font-size: 14px;
+  padding-left: 10px !important;
+}
+
+
+
+.table-fixed tbody {
+  display: block;
+  height: 800px;
+  overflow-y: auto;
+}
+
+.table-fixed tr {
+  display: block;
+}
+
+.btnptable{
+  height: 40px;
+  width: 45px;
+  padding: 0;
+  margin-top: 1px;
+  color: black;
+  background-color: #fff;
+  font-size: 20px;
+  border: none;
+}
+
+.filtp{
+  margin-bottom: 45px;
+}
+.botonfiltp{
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 30px;
+  background-color: rgb(179, 178, 178);
+}
+
+.switch{
+  width: 10px;
+ 
+}
+.name{
+  position: relative;
+  width: 400px;
+}
+
+.status{
+ width: 70px; 
+}
+
+.enabled, .disabled{
+ display: flex;
+  width: 30px;
+  font-size: 12px;
+  
+}
+
+
+.filter{
+  margin: 10px;
+}
+
+.table{
+  align-items: center;
+  width: 1600px;
+  height: 760px;
+  overflow: scroll;
+  
+}
+
+.d{
+  width: 200px;
+}
+.c{width: 200px;}
+
+.editp{
+  width: 150px;
+}
+
+
+
+
+
+

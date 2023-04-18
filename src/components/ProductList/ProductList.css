@@ -1,0 +1,57 @@
+/*carrusel del home*/
+
+
+.containerGeneral {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+
+@keyframes background {
+   100% {
+      background-size: 7000px 2000px;
+   }
+}
+
+.container_all {
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   background: #9978e6;
+   background-image: url('../../assets/Stacked\ Wave.svg');
+   background-size: 4000px 2000px;
+   background-position: -500px 0;
+   animation: background 10s infinite linear alternate-reverse;
+   gap: 40px;
+   padding: 60px;
+}
+
+
+@media (max-width:1360px) {
+   .container_all {
+      display:grid;
+      place-items: center;
+      grid-template-columns: 1fr;
+      background-color: #9978e6;
+      background-attachment: fixed;
+      animation: background 10x infinite linear alternate;
+   }
+}
+
+
+.background{
+   background-color: #262831;
+}
+
+.name_prod{
+   padding: 40px;
+   display: flex;
+   justify-content: space-around;
+   font-family: var(--font-family-brands);
+   color: #95c827;
+}

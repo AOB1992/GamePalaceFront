@@ -1,0 +1,77 @@
+
+.list-favs {
+    width: 100%;
+    background-image: url(../../assets/Stacked\ Wave.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_empty{
+    height: 1200px;
+}
+
+.wrapper_fav{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cards-favs-cont {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: var(--font-family-test);
+    color: #95c827;
+}
+
+.info__container{
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: var(--font-family-test);
+    color: #95c827;
+    padding: 20px;
+}
+
+.cards-favs {
+   padding: 40px;
+   width: 100%;
+}
+
+.cards-favs img {
+    object-fit: contain;
+}
+
+
+
+
+.fav-btn {  
+   background-color: transparent;
+   border: none;
+   position: relative;
+   right: 25px;
+   top: 10px;
+}
+
+.fav-btn svg {
+  
+}
+.fav-btn:hover {
+  
+}
+
+.name_prod{
+    background-color: #262831;
+    width: 100%;
+}
+
+.wtf{
+    padding: 20px;
+    font-family: var(--font-family-test);
+    font-size: 60px;
+    color: #95c827;
+}

@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family-test: 'Poppins', sans-serif;
+  --font-family-brands: 'Press Start 2P', cursive;
+}

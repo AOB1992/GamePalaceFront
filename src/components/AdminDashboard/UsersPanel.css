@@ -1,0 +1,35 @@
+.b{
+    width: 350px;
+   
+  }
+  
+  .a{
+    width: 150px;
+   
+  }
+ 
+.Q{
+    text-align: center;
+}
+
+.switch{
+  width: 5px;
+ 
+}
+
+.enabled{
+  margin-left: 60px;
+  font-size: 12px;
+}
+.disabled{
+  margin-right: 50px;
+  font-size: 12px;
+}
+
+
+.role{
+  width: 40px;
+}
+.status2{
+  width: 20px;
+}

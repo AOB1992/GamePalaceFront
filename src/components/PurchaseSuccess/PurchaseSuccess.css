@@ -1,0 +1,63 @@
+:root {
+    --font-family-test: 'Poppins', sans-serif;
+    --font-family-brands: 'Press Start 2P', cursive;
+}
+
+.purchase_container_success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+    background-image: url('../../assets/Circuit\ Board.svg');
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    height: 1200px;
+}
+
+.container_success{
+    background-color: aliceblue;
+    margin: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text_container {
+    padding: 40px;
+}
+
+.text_purchase {
+    font-family: var(--font-family-brands);
+}
+
+.text_subtitle {
+    font-family: var(--font-family-test);
+}
+
+.purchase_table{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.total_purchase_container{
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    justify-content: flex-end;
+}
+
+.total_text{
+    font-family: var(--font-family-test);
+}
+
+.total_price{
+    font-family: var(--font-family-test);
+}
+
+
+.social_website{
+    padding: 20px;
+}

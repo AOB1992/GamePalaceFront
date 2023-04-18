@@ -1,0 +1,46 @@
+:root {
+	--black:#262831;
+	--green:#95c827;
+	--primary: #b9b9b9;
+	--dark: #061b28;
+	--gray: #756388;
+	--light: #ffffff;
+	--font-family-test: 'Poppins', sans-serif;
+	--font-family-brands: 'Press Start 2P', cursive;
+}
+
+
+.inConst{
+    font-size: 80px;
+    margin-left: 400px;
+}
+
+
+.column{
+    margin-top: 300px;
+    margin-right: 10px;
+    position: absolute;
+    margin-left: 740px;
+    
+}
+
+.charts{
+    width: 1400px;
+    display: flex;
+}
+
+.pie{
+    margin-right: 800px;
+    position: absolute;
+ 
+     
+}
+
+
+.algo{
+    position: absolute;
+  margin-left: 1000px;  
+  margin-top: 320px;
+  font-size: 15px;
+  font-weight: 700;
+}
