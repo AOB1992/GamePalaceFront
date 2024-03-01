@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { Auth0Provider } from "@auth0/auth0-react"
 
 
-
+ 
 const Auth0ProviderWithHistory = ({ children }) => {
 let REACT_APP_GAMING_PALACE_DOMAIN = dev-a22su4rxz5izta6g.us.auth0.com
 let REACT_APP_GAMING_PALACE_CLIENT_ID = hvd6p2gYhOovkoZ3juZzaoeZl9npr1Me
