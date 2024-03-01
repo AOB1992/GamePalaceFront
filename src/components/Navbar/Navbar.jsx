@@ -75,6 +75,10 @@ const Navbar = () => {
                             <div className="menu_item">
                                 <Link to="/products" style={linkStyle}><div className="items">Products</div></Link>
                             </div>
+                            <div className="menu_item">
+                            {isAuthenticated  ?  <div className="items">Autenticated </div> : <div></div>}
+                            {!isAuthenticated  ?  <div className="items">Not Autenticated </div> : <div></div>}
+                            </div>
 
 
                             {isAuthenticated && filteredUser?.role === "admin" ?  <div className="menu_item">
